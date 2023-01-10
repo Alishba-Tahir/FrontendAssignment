@@ -1,0 +1,120 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+/*navbar style start */
+a.navbar-link{
+    text-decoration: none;
+    color: black !important;
+    font-size: 25px;
+}
+
+#navbar-div{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding: 10px 40px;
+    font-weight: 600;
+}
+
+/*navbar style end */
+
+/*backdrop style start */
+
+#backdrop{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#backdrop > div {
+    height: 150px;
+    background-color: white;
+    padding: 0px 8px;
+    margin-top: 3%;
+}
+
+#backdrop-left-column{
+    width: 50%;
+}
+
+#backdrop-left-column > h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #21243D; 
+
+}
+#backdrop-left-column > p{
+    font-weight: 400;
+    font-size: 20px;
+}
+#backdrop-left-button{
+    background-color: #FF6464;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#backdrop-right-column{
+    width: 45%;
+    text-align: center;
+}
+
+/*backdrop style end */
+
+
+/*recent blog style start */
+
+#recent-blog-posts-section{
+     margin-top: 10%;
+    background-color: #EDF7FA;
+    padding: 3px 8px;
+
+}
+
+#recent-post-header{
+    font-size: 400;
+    font-size: 22px;
+    color: #21243D;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.card {
+    color: #21243D;
+    font-weight: 400;
+
+}
+div.card > h2 {
+    font-weight: 700;
+    font-size: 26px;
+}
+div.card > span {
+    font-size: 18px;
+    padding: 5px 10px;
+}
+div.card > p {
+    font-size: 16px;
+}
+
+/*recent blog style end */
+
+/*feature work start */
+div.horizontal-card {
+    display: flex;
+    column-gap: 3%;
+}
+
+span.pill{
+    background-color: #142850;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+}
+
+/*feature work end */
+
+
+
